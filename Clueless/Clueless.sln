@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CluelessServer", "CluelessServer\CluelessServer.csproj", "{08D6B393-0CD3-406C-B6D2-F7C5A7AE1D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CluelessCore", "CluelessCore\CluelessCore.csproj", "{FAC8F756-2176-4C99-9CA3-4A9D66A4507A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08D6B393-0CD3-406C-B6D2-F7C5A7AE1D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D6B393-0CD3-406C-B6D2-F7C5A7AE1D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D6B393-0CD3-406C-B6D2-F7C5A7AE1D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D6B393-0CD3-406C-B6D2-F7C5A7AE1D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAC8F756-2176-4C99-9CA3-4A9D66A4507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAC8F756-2176-4C99-9CA3-4A9D66A4507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAC8F756-2176-4C99-9CA3-4A9D66A4507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAC8F756-2176-4C99-9CA3-4A9D66A4507A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
