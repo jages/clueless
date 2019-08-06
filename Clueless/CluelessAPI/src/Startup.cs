@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.Swagger;
 
 namespace cluelessapi
@@ -28,7 +29,7 @@ namespace cluelessapi
             {
                 options.DescribeAllEnumsAsStrings();
                 options.DescribeStringEnumsInCamelCase();
-                options.SwaggerDoc("v1", new Swashbuckle.AspNetCore.Swagger.Info
+                options.SwaggerDoc("v1", new OpenApiInfo()
                 {
                     Title = "HTTP API",
                     Version = "v1",
